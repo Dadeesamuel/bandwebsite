@@ -1,0 +1,66 @@
+body{
+    background: url(/pictures/bac.jpg);
+    color: khaki;
+
+}
+ul {
+    list-style-type: none;
+     margin: 0%;
+     padding: 0%;
+     overflow: hidden;
+     background-color: rgb(90, 72, 72);
+     border-radius: 20px;
+     font-size: 10px;
+     position: fixed;
+     border-style: ridge;
+ }
+ li{
+     float: left;
+ }
+ li a{
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     
+ }
+ li a:hover{
+     background-color: blue;
+ }
+ .active{
+    background-color: rgb(214, 16, 109);
+}
+.concert li{
+    float: none;
+}
+ h4{
+color: red;
+font-weight: bolder;
+
+}
+.direction{
+    font-size: 130%;
+}
+.findus{
+     border-width: 2px;
+    border-style: ridge;
+    border-radius: 20px;
+    background-color: rgb(20, 11, 1);
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+.contact{
+    border-width: 2px;
+    border-style: ridge;
+    border-radius: 20px;
+    background-color: rgb(71, 39, 6);
+    padding: 5px;
+    text-align: center;
+    width: 300px;
+    
+}
+.detail{
+    font-size: 150%;
+}
